@@ -6,5 +6,21 @@
     height: 400px;
     object-fit: cover;
     object-position: 0 20%;
+    margin-top: 126px;
 }
 
+.card-largura {
+    width: 18rem;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: justify;
+}
+
+.img-produto {
+    height: 300px;
+    object-fit: cover;
+}
