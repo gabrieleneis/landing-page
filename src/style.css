@@ -24,3 +24,24 @@
     height: 300px;
     object-fit: cover;
 }
+
+.form-label {
+    margin-bottom: unset;
+    margin-top: .5rem;
+}
+
+.invalid-feedback {
+    margin-bottom: .2rem;
+}
+
+.btn-enviar {
+    margin-top: 15px;
+    background-color: #999696;
+    color: #fff;
+}
+
+.btn-enviar:hover {
+    border: 1px solid #000;
+    background-color: #fff;
+    color: #999696;
+}

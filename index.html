@@ -29,7 +29,7 @@
               <a class="nav-link" href="#">Quem Somos</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link">Contato</a>
+              <a class="nav-link" data-bs-toggle="modal" data-bs-target="#ModalContato">Contato</a>
             </li>
           </ul>
         </div>
@@ -137,6 +137,45 @@
         </div>
       </div>
       </section>
+
+<div class="modal fade" id="ModalContato" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Contato</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form class="needs-validation" novalidate>
+          <div class="">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" class="form-control" id="email" placeholder="Digite seu E-mail" required>
+            <div class="invalid-feedback">
+              Insira um e-mail válido!
+            </div>
+          </div>
+          <div class="">
+            <label for="telefone" class="form-label">Telefone</label>
+            <input type="tel" pattern="^[0-9^/]*$" class="form-control" id="email" placeholder="Digite seu E-mail" required>
+            <div class="invalid-feedback">
+              Insira um número de telefone válido!
+            </div>
+          </div>
+
+          <div>
+            <label for="mensagem" class="form-label">Mensagem</label>
+            <textarea name="mesnagem" id="mensagem" class="form-control" placeholder="Digite sua mensagem..." required></textarea>
+            <div class="invalid-feedback">Digite sua mensagem!</div>
+          </div>
+
+
+
+          <button type="submit" class="btn btn-enviar d-grid mx-auto">Enviar</button>
+          </form>
+      </div>
+    </div>
+  </div>
+</div>
     </main>
 
     <footer>
@@ -145,5 +184,6 @@
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="src/js/script.js"></script>
 </body>
 </html>
