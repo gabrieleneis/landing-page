@@ -2,6 +2,21 @@
     width: 100px;
 }
 
+.nav-item {
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+}
+
+#navbarNav a {
+    padding: 0px 0px;
+}
+
+.material-symbols-outlined {
+    color: #999696;
+    font-size: 30px !important;
+}
+
 .img-carousel {
     height: 400px;
     object-fit: cover;
