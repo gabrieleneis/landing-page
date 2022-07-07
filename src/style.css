@@ -8,8 +8,15 @@
     margin-left: 15px;
 }
 
+
+
 #navbarNav a {
     padding: 0px 0px;
+    cursor: pointer;
+}
+
+.nav-item {
+    cursor: pointer;
 }
 
 .material-symbols-outlined {
